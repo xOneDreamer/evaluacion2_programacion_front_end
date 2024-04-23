@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="Author" content="BCordova" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería</title>
+    <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+<body background="imagenes/fondo.jpg" style="background-size: cover;">
+    <nav class="navbar navbar-expand-lg   bg-white">
+        <div class="container">
+            <a class="navbar-brand menu" href="index.html">
+                <div class="row">
+                    <div class="col">
+                        <img src="imagenes/logoplaystation.png" />
+                    </div>
+                    <div class="col align-self-center">
+                        <h4>Play Benja</h4>
+                    </div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link   text-center" href="login.html">
+                        <h5>Iniciar sesión</h5>
+                    </a>
+                    <a class="nav-link   text-center" href="galeria.html">
+                        <h5>Galería</h5>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <br></br>
+    <div class="container">
+        <div id="noticiasCarrusel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="imagenes/publicidad.jpeg" class="d-block w-100" alt="No Encontrado">
+                </div>
+        </div>
+    </div>
+    <div class="container   mt-5 p-2">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h4>Nintendo Switch OLED</h4>
+                        <p>Precio: $369.990</p>
+                        <img src="imagenes/producto1.jpeg" class="card-img-top" alt="No Encontrado">
+                        <div class="row mt-3">
+                            <div class="col-8 col-md-8 text-end pt-2"><b>Cantidad:</b></div>
+                            <div class="col-4 col-md-4">
+                                <input class="form-control" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-4 mb-4">Agregar al carrito</button>
+                        <p>La nueva consola cuenta con una vibrante pantalla OLED de 7 pulgadas (17.78 cm), un soporte
+                            ajustable y amplio, una base con puerto LAN para conexión por cable, almacenamiento interno
+                            de 64 GB y audio mejorado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h4>Sonic Frontiers (PS5)</h4>
+                        <p>Precio: $39.990</p>
+                        <img src="imagenes/producto2.jpg" class="card-img-top" alt="No Encontrado">
+                        <div class="row mt-3">
+                            <div class="col-8 col-md-8 text-end pt-2"><b>Cantidad:</b></div>
+                            <div class="col-4 col-md-4">
+                                <input class="form-control" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-4 mb-4">Agregar al carrito</button>
+                        <p>Conviértete en Sonic y viaja para descubrir los misterios de los restos de una antigua
+                            civilización plagada de hordas de robots.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h4>Xbox Series S</h4>
+                        <p>Precio: $319.990</p>
+                        <img src="imagenes/producto3.jpg" class="card-img-top" alt="No Encontrado">
+                        <div class="row mt-3">
+                            <div class="col-8 col-md-8 text-end pt-2"><b>Cantidad:</b></div>
+                            <div class="col-4 col-md-4">
+                                <input class="form-control" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-4 mb-4">Agregar al carrito</button>
+                        <p>Experimenta la velocidad y el rendimiento de una consola totalmente digital de próxima
+                            generación a un precio accesible. Alterna sin problemas entre varios juegos en un instante
+                            con Quick Resume. En el corazón de la Series S se encuentra la Arquitectura Xbox Velocity,
+                            que combina un SSD personalizado con un software integrado para un juego más rápido y
+                            optimizado con tiempos de carga significativamente reducidos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br></br>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h4>Figura Amiibo Kirby</h4>
+                        <p>Precio: $24.990</p>
+                        <img src="imagenes/producto4.jpeg" class="card-img-top" alt="No Encontrado">
+                        <div class="row mt-3">
+                            <div class="col-8 col-md-8 text-end pt-2"><b>Cantidad:</b></div>
+                            <div class="col-4 col-md-4">
+                                <input class="form-control" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-4 mb-4">Agregar al carrito</button>
+                        <p>Descubre Amiibo, una nueva forma de interactuar con tus personajes y juegos favoritos de
+                            Nintendo. Si tocas el punto NFC del Wii U GamePad con la figura al jugar a ciertos juegos,
+                            los datos del chip se transferirán al juego para su uso de distintas formas. Mientras
+                            juegas, los datos de tu figura también se actualizarán, así que mientras juegas, tu Amiibo
+                            es cada vez más único.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h4>Red Dead Redemption 2 (PS4)</h4>
+                        <p>Precio: $24.990</p>
+                        <img src="imagenes/producto5.jpg" class="card-img-top" alt="No Encontrado">
+                        <div class="row mt-3">
+                            <div class="col-8 col-md-8 text-end pt-2"><b>Cantidad:</b></div>
+                            <div class="col-4 col-md-4">
+                                <input class="form-control" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-4 mb-4">Agregar al carrito</button>
+                        <p>Estados Unidos, 1899. El final del Salvaje Oeste está cerca y las autoridades están cazando a
+                            las últimas bandas de forajidos que quedan. Los que no se rinden o sucumben son
+                            exterminados. Luego de un desastroso asalto fallido en el pueblo de Blackwater, Arthur
+                            Morgan y la banda de Van der Linde se ven obligados a huir. Con agentes federales y los
+                            mejores cazarrecompensas pisándoles los talones, la banda deberá abrirse camino por el
+                            salvaje territorio del corazón de Estados Unidos a base de robos y peleas para sobrevivir.
+                            Mientras las divisiones internas aumentan y amenazan con desmantelar el grupo, Arthur debe
+                            elegir entre sus propios ideales y la lealtad a la banda que lo vio crecer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body text-center">
+                        <h4>Grand Theft Auto V (XBS)</h4>
+                        <p>Precio: $36.990</p>
+                        <img src="imagenes/producto6.jpg" class="card-img-top" alt="No Encontrado">
+                        <div class="row mt-3">
+                            <div class="col-8 col-md-8 text-end pt-2"><b>Cantidad:</b></div>
+                            <div class="col-4 col-md-4">
+                                <input class="form-control" type="number" value="1" min="1">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary mt-4 mb-4">Agregar al carrito</button>
+                        <p>Cuando un joven estafador callejero, un ladrón de bancos retirado y un psicópata aterrador se
+                            ven involucrados con lo peor y más desquiciado del mundo criminal, del gobierno de los EE.
+                            UU. y de la industria del espectáculo, tendrán que llevar a cabo una serie de peligrosos
+                            golpes para sobrevivir en una ciudad implacable en la que no pueden confiar en nadie; mucho
+                            menos los unos en los otros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="container bg-body-tertiary mb-0">
+        <div class="container text-center">
+            <p class="navbar-brand text-center" style="font-size:28px; text-align: center;">ASIGNATURA: PROGRAMACIÓN FRONT END.</p>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
